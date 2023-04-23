@@ -1,15 +1,24 @@
-<!DOCTYPE html>
+
 <html lang="en">
   <head>
     <title>Meeting Minutes</title>
     <meta charset="UTF-8">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      @media (min-width:200px){
+        body{
+          font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+        }
+      }
+    </style>
   </head>
   <body>
-    <header>
-     <h1>Meeting Minutes</h1>
+    <header >
+     <h1 id="comment">Meeting Minutes</h1>
       <h2>4/15</h2>
-      <nav>
+      <nav style="text-align:center;background-color:#333333;color:white;position:fixed;top:0px;width:100%">
+        <a> corn store links </a>
         <a href="https://amazon.com">corn store</a>
         <a href="https://vons.com">second corn store</a>
       </nav>
@@ -17,13 +26,14 @@
     </header>
     
     
-    <main>
-      <section>
+    <main >
+      <section id="attend">
         <h3>Attendance
         </h3>
         <ul>
           <li>carrot bear</li>
           <li>pumpkin bear</li>
+          <li style="text-decoration:line-through"> obama</li>
         </ul>
       </section>
       <hr>
@@ -60,13 +70,13 @@
       
     </main>
     <footer>
-      <video width="320" height="240" controls>
+      <video width="160" height="240" controls>
         <source src="Meeting.mp4" type="video/mp4">
       </video>
       <audio controls>
         <source src="Recording.mp3" type="audio/mpeg">
       </audio>
-      <br>
+      
       <form>
         <fieldset>
           <label>corn</label>
