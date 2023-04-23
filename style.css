@@ -1,0 +1,43 @@
+main {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  row-gap:100px;
+  column-gap:50px;
+  border-style: solid;
+  border-width:10px;
+  border-radius:100px;
+  border-color:rgb(111,111,111);
+  margin: 10px 0px 70px 0px;
+  padding: 10px 10px 500px 10px;
+  
+}
+#comment {
+  text-align:center;
+  background-color:hsla(93, 10%, 14%, 0.5);
+  margin: 1% 30% 1% 40%;
+  
+  max-width:70%;
+}
+#attend {
+  margin:auto;
+  padding: 5% 0% 5% 0%;
+  height:100px;
+  min-width:10%;
+  
+}
+main:hover {
+  
+  background-image: url("https://wjactv.com/resources/media/d60d4f1c-9fcc-4ae4-8058-05e885080e19-jumbo3x4_momo2.PNG?1551379953682");
+  background-size:cover;
+}
+main:active {
+  
+  background-image:url();
+}
+footer {
+  display:grid;
+  grid-template-columns: auto auto auto;
+  column-gap:10px;
+  justify-items:center;
+}
